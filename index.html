@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meisha Hair: Luxury Hair, Redefined.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // Muted, Richer Palette (unchanged)
+                        'gold': '#A38B57', // Muted Bronze/Gold
+                        'gold-dark': '#7A643E', // Darker Bronze
+                        'ivory': '#F8F8E8', // Slightly warmer off-white
+                        'pearl': '#F5F5F0', // Soft, warm light gray/off-white
+                        'champagne': '#EBE3D6', // Softer, less saturated beige
+                        'onyx': '#2C3539', // Very Dark Gray/Onyx
+                        'taupe': '#D3C3B1', // A warm neutral for light accents
+                        // Added WhatsApp Green for the button
+                        'whatsapp': '#25D366', 
+                    },
+                    fontFamily: {
+                        'serif': ['Cormorant Garamond', 'serif'],
+                        'sans': ['Montserrat', 'sans-serif'],
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                        'diamond-pattern': "url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2IiBoZWlnaHQ9IjYiPgo8cmVjdCB3aWR0aD0iNiIgaGVpZ2h0PSI2IiBmaWxsPSIjRjVGNUYwIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMNiA2TTYgMEwwIDYiIHN0cm9rZT0iI0EzOEI1NyIgc3Ryb29rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=')",
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-pearl text-onyx antialiased">
+
+    <custom-navbar></custom-navbar>
+
+    <main>
+        <section class="relative h-screen flex items-center justify-center text-center overflow-hidden bg-gradient-radial from-gold/5 to-transparent">
+            <div class="absolute inset-0 bg-black/40"></div>
+            <div class="relative z-10 p-8 max-w-4xl mx-auto">
+                <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif font-bold text-white mb-6 tracking-tight leading-tight">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-gold to-gold-dark">Meisha Hair</span><br>Perfected
+                </h1>
+                <p class="text-xl text-pearl/90 mb-10 max-w-lg mx-auto font-light">
+                    Handcrafted excellence meets timeless elegance in every strand of Meisha Hair.
+                </p>
+                <a href="shop.html" class="inline-flex items-center justify-center bg-gold text-pearl text-lg font-medium py-4 px-12 rounded-full shadow-lg hover:bg-gold-dark transition duration-300 transform hover:scale-105 uppercase tracking-wider space-x-2">
+                    <span>Discover Collection</span>
+                    <i data-feather="arrow-right" class="w-5 h-5"></i>
+                </a>
+            </div>
+            <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <i data-feather="chevron-down" class="text-white w-8 h-8"></i>
+            </div>
+        </section>
+
+        <section class="py-24 bg-champagne">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-20">
+                    <span class="text-sm uppercase tracking-widest text-gold font-medium">Exclusive Collection</span>
+                    <h2 class="text-4xl font-serif font-bold text-onyx mt-4">Our Signature Styles</h2>
+                    <div class="w-24 h-1 bg-gold mx-auto mt-6"></div>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div class="group relative overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 z-10"></div>
+                        <img src="item1.jpg" alt="Silky Straight Wig" class="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700">
+                        <div class="absolute bottom-0 left-0 z-20 p-6 w-full">
+                            <h3 class="text-2xl font-serif font-medium text-pearl group-hover:text-gold transition duration-300">
+                                Venetian Silk
+                            </h3>
+                            <p class="text-pearl/80 font-light mt-1">Straight 28" HD Lace</p>
+                            <p class="text-gold text-xl font-medium mt-3">
+                                R299.00
+                            </p>
+                            <button class="mt-4 bg-gold text-pearl px-6 py-2 rounded-full text-sm font-medium hover:bg-gold-dark transition duration-300 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="group relative overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 z-10"></div>
+                        <img src="item2.jpg" alt="Deep Wave Wig" class="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700">
+                        <div class="absolute bottom-0 left-0 z-20 p-6 w-full">
+                            <h3 class="text-2xl font-serif font-medium text-pearl group-hover:text-gold transition duration-300">
+                                Royal Waves
+                            </h3>
+                            <p class="text-pearl/80 font-light mt-1">Deep Wave 26"</p>
+                            <p class="text-gold text-xl font-medium mt-3">
+                                R380.00
+                            </p>
+                            <button class="mt-4 bg-gold text-pearl px-6 py-2 rounded-full text-sm font-medium hover:bg-gold-dark transition duration-300 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="group relative overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-all duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/60 z-10"></div>
+                        <img src="item3.jpg" alt="Bob Style Wig" class="w-full h-[500px] object-cover group-hover:scale-105 transition duration-700">
+                        <div class="absolute bottom-0 left-0 z-20 p-6 w-full">
+                            <h3 class="text-2xl font-serif font-medium text-pearl group-hover:text-gold transition duration-300">
+                                Parisian Chic
+                            </h3>
+                            <p class="text-pearl/80 font-light mt-1">Glueless Bob 18"</p>
+                            <p class="text-gold text-xl font-medium mt-3">
+                                R180.00
+                            </p>
+                            <button class="mt-4 bg-gold text-pearl px-6 py-2 rounded-full text-sm font-medium hover:bg-gold-dark transition duration-300 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-16">
+                    <a href="shop.html" class="inline-flex items-center text-gold hover:text-gold-dark font-medium text-lg border-b border-gold pb-1 transition duration-300">
+                        <span>View Full Collection</span>
+                        <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="py-24 bg-ivory">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-20">
+                    <span class="text-sm uppercase tracking-widest text-gold font-medium">Our Promise</span>
+                    <h2 class="text-4xl font-serif font-bold text-onyx mt-4">Uncompromising Excellence</h2>
+                    <div class="w-24 h-1 bg-gold mx-auto mt-6"></div>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <div class="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-500">
+                        <div class="w-20 h-20 bg-taupe/30 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i data-feather="award" class="text-gold w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-serif font-medium text-onyx mb-3">Premium Quality</h3>
+                        <p class="text-onyx/70">Each strand is ethically sourced and meticulously hand-tied for unparalleled realism and durability.</p>
+                    </div>
+                    
+                    <div class="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-500">
+                        <div class="w-20 h-20 bg-taupe/30 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i data-feather="shield" class="text-gold w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-serif font-medium text-onyx mb-3">Comfort Redefined</h3>
+                        <p class="text-onyx/70">Our patented lace technology ensures all-day comfort with breathable, lightweight construction.</p>
+                    </div>
+                    
+                    <div class="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-500">
+                        <div class="w-20 h-20 bg-taupe/30 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i data-feather="heart" class="text-gold w-10 h-10"></i>
+                        </div>
+                        <h3 class="text-xl font-serif font-medium text-onyx mb-3">Personalized Care</h3>
+                        <p class="text-onyx/70">Dedicated stylists available to help you select and maintain your perfect hair solution.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+    
+    <a 
+  href="https://wa.me/27815475458" 
+  class="fixed bottom-6 right-6 z-50 p-4 rounded-full bg-green-500 text-white shadow-xl hover:scale-105 transition-transform duration-300"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat on WhatsApp"
+>
+  <i class="fa-brands fa-whatsapp text-3xl"></i>
+</a>
+
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
